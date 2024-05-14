@@ -5,17 +5,26 @@ void main(){
     debugShowCheckedModeBanner: false,
     title: "Frases do Dia",
     home: Container(
-      color: Colors.white,
+      padding: EdgeInsets.all(30),
+      decoration: BoxDecoration(
+          color: Colors.white,
+          border: Border.all(
+              width: 8,
+              color: Colors.red
+          )
+      ),
       child: Column(
         children: [
           Text(
-              "Lorem ipsum dolar sit ament, consectetur.",
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
             style: TextStyle(
               fontSize: 20,
               color: Colors.black54,
               fontWeight: FontWeight.normal,
-              decoration: TextDecoration.none
+              decoration: TextDecoration.none,
+              height: 1.5,
             ),
+            textAlign: TextAlign.justify,
           ),
           TextButton(
               onPressed: (){
@@ -28,7 +37,8 @@ void main(){
                     color: Colors.red,
                     decoration: TextDecoration.none,
                   ),
-              ))
+              )
+          )
         ],
       ),
     )

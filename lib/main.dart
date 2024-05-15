@@ -4,7 +4,6 @@ void main(){
 
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: "Frases do Dia",
     home: Container(
       padding: EdgeInsets.fromLTRB(30, 0, 30, 0),
       margin: EdgeInsets.only(top: 50),

@@ -5,7 +5,8 @@ void main(){
     debugShowCheckedModeBanner: false,
     title: "Frases do Dia",
     home: Container(
-      padding: EdgeInsets.all(30),
+      padding: EdgeInsets.fromLTRB(30, 0, 30, 0),
+      margin: EdgeInsets.only(top: 50),
       decoration: BoxDecoration(
           color: Colors.white,
           border: Border.all(

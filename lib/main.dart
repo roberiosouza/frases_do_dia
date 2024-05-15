@@ -27,6 +27,7 @@ void main(){
             ),
             textAlign: TextAlign.justify,
           ),
+          Padding(padding: EdgeInsets.only(top: 20)),
           TextButton(
               onPressed: (){
                 print("Botão pressionado.");

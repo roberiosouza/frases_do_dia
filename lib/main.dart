@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main(){
+
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     title: "Frases do Dia",
@@ -26,6 +27,10 @@ void main(){
               height: 1.5,
             ),
             textAlign: TextAlign.justify,
+          ),
+          Padding(padding: EdgeInsets.only(top: 20)),
+          Image.asset(
+            "images/matrix.jpg"
           ),
           Padding(padding: EdgeInsets.only(top: 20)),
           TextButton(
